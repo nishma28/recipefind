@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="details.css">
+  <title>Recipe Finder</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><i class="fas fa-utensils"></i> RecipeFind</a>
+      </header>
+      
+
+  <section class="search-section">
+    <div class="search-container">
+      <input type="text" id="ingredients" placeholder="Enter your ingredients">
+      <select id="cuisine">
+        <option value="All">All Cuisines</option>
+        <option value="Indian">Indian</option>
+        <option value="American">American</option>
+      </select>
+      <button id="filter-btn">Search</button>
+    </div>
+  </section>
+
+
+<h3 class="hinttext">*You Can click the images to get details of recipes*</h3>
+  <section class="recipe-container"></section>
+
+  <script src="details.js"></script>
+</body>
+
+</html>
+
+
